@@ -1,0 +1,19 @@
+# QuanticXLSX API
+
+Análise automatizada de risco de crédito via Excel com ML + XAI.
+
+## Uso Rápido
+
+```bash
+# Local
+pip install -r requirements.txt
+uvicorn api:app --reload
+
+# Docker
+docker build -t quanticxlsx .
+docker run -p 8000:8000 quanticxlsx
+
+# Teste
+curl -X POST http://localhost:8000/api/v1/analisar \
+  -H "x-api-key: demo-key" \
+  -F "file=@planilha.xlsx" --output resultado.xlsx
