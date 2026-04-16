@@ -1,4 +1,4 @@
-<img width="600" height="200" alt="spyder" src="https://github.com/user-attachments/assets/e789750b-2c86-4222-a4e2-6591898adf59" />
+<img width="200" height="100" alt="spyder" src="https://github.com/user-attachments/assets/e789750b-2c86-4222-a4e2-6591898adf59" />
 <img width="100" height="200" alt="docker" src="https://github.com/user-attachments/assets/a2219122-397b-4898-a45d-e162d9eb0e2a" />
 <img width="50" height="100" alt="excel" src="https://github.com/user-attachments/assets/5211df27-b8ed-4962-914f-c02e78a313b8" />
 <img width="150" height="412" alt="amazon" src="https://github.com/user-attachments/assets/88238889-61d2-4195-81d1-31bf921642cc" />
@@ -199,6 +199,9 @@ O `Dockerfile` incluído segue boas práticas: imagem `slim`, sem cache pip, var
 Distribuído sob a licença **BSD License**, a fins de pesquisa e desenvolvimento.
 
 ---
-> 💡 **Documentação interativa:** `http://localhost:8000/docs`  
+> 💡 **Documentação interativa:**
+
+> `http://localhost:8000/docs`
+
 > `FastAPI • Pandas • SHAP • Docker • AWS`
 
